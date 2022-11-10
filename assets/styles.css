@@ -1,0 +1,214 @@
+body * {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+body {
+    background-color: #666666;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu__livraria {
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+    z-index: 1;
+}
+
+nav a {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0.5% 2% 2%;
+    margin-top: 1.5%;
+    text-decoration: none;
+    border-top: 3px solid transparent;
+}
+
+nav a:hover {
+    color: #FFCE00;
+}
+
+.formulario__livraria {
+    margin-top: 30px;
+}
+
+.formulario {
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    color: #000000;
+}
+
+.novo {
+    border-color: darkturquoise;
+    border-radius: 8px;
+    width: 34%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.legenda {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 9px;
+    color: #000000;
+}
+
+input[type=text] {
+    background: #fffffff1;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    -webkit-box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+    border: #FFFFFF;
+}
+
+input[type=date] {
+    background: #fffffff1;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    -webkit-box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+    border: #FFFFFF;
+}
+
+.select {
+    background: #fffffff1;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    -webkit-box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+    border: #FFFFFF;
+}
+
+input[type=submit],
+[type=reset] {
+    color: solid black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: 0.7s all;
+    display: inline-block;
+    width: 45%;
+    border: #FFFFFF;
+}
+
+input[type=date] {
+    color: solid black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: 0.7s all;
+    display: inline-block;
+    width: 90%;
+}
+
+input[type=submit]:hover {
+    background: #5b5b5bd9;
+    transform: scale(1.1);
+}
+
+input[type=reset]:hover {
+    background: #5b5b5bd9;
+    transform: scale(1.1);
+}
+
+.lista__livros {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 12px;
+    padding-left: 100px;
+    text-align: center;
+    padding-right: 400px;
+    color: #FFFFFF;
+}
+
+table {
+    margin: 20px 0 40px;
+    margin-left: 25vw;
+}
+
+thead {
+    background: #a85f5f;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.login {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    color: #000000;
+}
+
+.titulo__login {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+input[type=email],
+[type=password] {
+    background: #fffffff1;
+    border-radius: 6px;
+    border: 2px solid rgb(254, 254, 254);
+    width: 100%;
+    -webkit-box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 2px 0px 1px rgba(0, 0, 0, 0.19);
+}
+
+.cadastro {
+    color: solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    transition: 0.7s all;
+    display: inline-block;
+    width: 55%;
+    border: #FFFFFF;
+    text-align: center;
+}
+
+.cadastro:hover {
+    transform: scale(1.1);
+    transition: 0.6s all;
+    cursor: pointer;
+}
+
+.formulario__login {
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    color: #000000;
+}
+
+.botao__alterar {
+    text-align: center;
+    margin-top: 400px;
+}
