@@ -2,7 +2,7 @@
 
 require('conecta.php');
 
-@$id = intval($_GET['idlivro']);
+$id = intval($_GET['idlivro']);
 
 if (count($_POST) > 0) {
     $id = $_GET['idlivro'];
